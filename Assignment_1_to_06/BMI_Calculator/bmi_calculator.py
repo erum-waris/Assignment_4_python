@@ -7,7 +7,7 @@ height_m = st.number_input(
     "Enter your height (in meters):",
     min_value=0.1,
     max_value=3.0,
-    step=0.01,
+    step=0.01, # increment or decrement can be done on click + or -  (0.01 meters stepwise).
     value=1.7  # Default as float
 )
 
@@ -22,13 +22,13 @@ weight_kg = st.number_input(
 
 def calculate_bmi(height, weight):
     try:
-        bmi = weight / (height ** 2)
-        return bmi
+        bmi = weight / (height ** 2) # BMI (Body Mass Index) formula ** used for power/exponentiation
+        return bmi                      # calculation successfully done return value of bmi
     except ZeroDivisionError:
         return "Cannot calculate BMI with zero height."
 
-def interpret_bmi(bmi):
-    if isinstance(bmi, str):
+def feedback(bmi):
+    if isinstance(bmi, str): # agar bmi ek string hai jo ZeroDivisionError se possible hai , to wohi error message wapas bhej deta hai.
         return bmi
     elif bmi < 18.5:
         return "Underweight"
@@ -42,5 +42,5 @@ def interpret_bmi(bmi):
 if st.button("Calculate BMI"):
     bmi_result = calculate_bmi(height_m, weight_kg)
     st.subheader(f"Your BMI is: {bmi_result:.2f}")
-    interpretation = interpret_bmi(bmi_result)
-    st.write(f"Interpretation: {interpretation}")
+    Feedback = feedback(bmi_result)
+    st.write(f"Feedback: {Feedback}")
