@@ -1,0 +1,1 @@
+print(int(5.8) + float(3.0))
