@@ -17,4 +17,7 @@ Here's a quick look at the Python projects in this repository:
 * Live Link : https://passwordstrengthmeterandgenerator.streamlit.app
 * **Ui Number Guessing Game:** live link :https://numberguessinggamebyerumwaris.streamlit.app
 * gitURL:https://github.com/erum-waris/Number_Guessing_Game.git
+* **15 minutes website using streamlit**
+* live link: https://quranapppythongit-ntsne7q8bfeetqibxfej8s.streamlit.app
+* github link: https://github.com/erum-waris/Quran_app_python.git
    
