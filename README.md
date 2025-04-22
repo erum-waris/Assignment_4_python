@@ -20,11 +20,11 @@ Here's a quick look at the Python projects in this repository:
 * **15 minutes website using streamlit**
 * live link: https://quranapppythongit-ntsne7q8bfeetqibxfej8s.streamlit.app
 * github link: https://github.com/erum-waris/Quran_app_python.git
-* ** Birthday App Calculator **
+* **Birthday App Calculator**
 *  A web app made with Streamlit to easily calculate your Days , years, minutes, seconds which lived and calculate days until next birthday.
 * github link:https://github.com/erum-waris/Birthday_app.git
 * live link:https://birthdayappcaculator.streamlit.app
-* * ** Anniversary App Calculator **
+*  **Anniversary App Calculator**
   * A web app made with Streamlit to easily calculate your Days , years, minutes, seconds which spent together as a couple
   * github Link: https://github.com/erum-waris/Anniversary_app.git
   * live link:anniversaryappcalculator.streamlit.app
