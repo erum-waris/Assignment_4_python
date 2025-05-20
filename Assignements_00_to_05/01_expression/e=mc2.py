@@ -23,9 +23,10 @@ def main():
     C = 299792458 # speed of light in m/s
 
     e = m * C**2
-    print(f"e = {e} joules energy = m x c^2")
+    print(f"e = energy = m x c^2 = {e} joules ")
     print(f"m = {m} kg")
     print(f"C = {C} m/s")
 
 
-
+if __name__ == "__main__":
+    main()

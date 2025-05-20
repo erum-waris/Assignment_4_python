@@ -1,0 +1,126 @@
+# # for i in range(-3, 6):
+# #     print(f"~{i} = {~i}")
+# # import keyword
+
+# # # Line continuation (`\`) allows printing a statement over multiple lines, improving code readability without breaking the string.
+# # print("The list of \
+# # keywords is : ")
+
+# # # printing all keywords at once using "kwlist()"
+# # print(keyword.kwlist)
+
+# # t = (1, 2) + (3, 4)
+# # print(t)
+# # print(type(t))
+
+# x = 3
+# x += 2 * 3
+# print(x)
+
+
+# x = 3
+# y = 4
+# x &= y
+# print(x)
+
+
+# x = 5
+# y = 6
+# x |= y
+# print(x)
+
+# def foo(k):
+#     k[0] = 1
+# q = [0]
+# foo(q)
+# print(q)
+
+# print(2**(3**2),(2**3)**2,2**3**2)
+
+# def example():
+#     try:
+#         print("Inside try")
+#         return "hi"
+#     finally:
+#         print("Inside finally")
+#         return "bye"
+
+# result = example()
+# print(f"Function returned: {result}")
+
+# def addItem(listParam):
+#     listParam += [1]
+ 
+# mylist = [1, 2, 3, 4]
+# addItem(mylist)
+# print(len(mylist))
+# print(dir(8))
+
+# i = 0
+# while i < 5:
+#     print(i)
+#     i += 1
+#     if i == 3:
+#         break
+# else:
+#     print(0)
+
+# for i in range(2, 6, 2):
+#     print(i)
+# def f(x):
+#     def f1(*args, **kwargs):
+#            print("Sanfoundry")
+#            return x(*args, **kwargs)
+#     return f1
+
+# map method is used to apply a function to all the items in an iterable (like a list) and return a map object (which is an iterator).
+
+# def multiply(x):
+#     return x * 2
+# num_list = [12, 3 , 4, 5, 6]
+
+# # Using map() to apply the add function to each element in num_list
+# multiplication = list(map(multiply,num_list))
+
+# print("mapped and multiplied:" , multiplication)  
+
+# # filer function is used to filter elements from an iterable based on a function that returns True or False.
+
+# def even(y):
+#     return y % 2 == 0
+
+# num_list = [2, 3 , 4, 5, 6]
+
+# even_numbers = list(filter(even,num_list))
+
+# print("Even Numbers:" , even_numbers)
+
+# def odd(y):
+#     return y % 2 != 0
+
+# num_list = [2, 3 , 4, 5, 6]
+
+# odd_numbers = list(filter(odd,num_list))
+
+# print("Odd Numbers:" , odd_numbers)
+
+# # reduce function is used to apply a rolling computation to sequential pairs of values in a list.
+# from functools import reduce
+
+# def add(x,y):
+#     return x + y
+
+# num_list = [2, 3 , 4, 5, 6]
+
+# add_numbers = reduce(add,num_list)
+
+# print("Reduced:" , add_numbers)
+
+# zip method
+
+names = ["Aliya", "Erum", "Uroosa"]
+ages = [23,31,33]
+
+pair = list(zip(names,ages))
+
+print(pair)
